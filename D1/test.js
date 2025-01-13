@@ -97,3 +97,5 @@ const nilaiTertinggi = [1, 34, 21, 54, 6567, 234, 65865, 98764, 23, 453];
  * buat fungsi untuk membuat piramid(segitiga sama kaki) yang terbuat dari bintang "*"
  * dengan jumlah baris yang bisa ditentukan oleh user melalui parameter fungsi
  */
+
+// Good luck
