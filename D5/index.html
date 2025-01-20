@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=support_agent"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              aigen: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="bg-black flex px-4 lg:px-[50px] py-3 justify-between items-center sticky top-0">
+      <div class="flex items-center gap-5 lg:gap-10 text-white font-bold">
+        <a href="index.html"><img class="h-10 w-auto" src="assets/img/aigen-logo.png" alt="navlogo" /></a>
+        <a class="text-aigen" href="index.html">Home</a>
+        <a href="./blog/index.html">Blog</a>
+      </div>
+      <div
+        class="flex items-center lg:bg-[#eb374e] lg:hover:bg-[#d12038] px-3 py-[7px] rounded-lg text-white font-semibold"
+      >
+        <a href="./contact/index.html" class="hidden lg:block">Contact Me</a>
+        <a href="./contact/index.html" class="block lg:hidden"
+          ><span class="material-symbols-outlined"> support_agent </span></a
+        >
+      </div>
+    </nav>
+
+    <!-- personal -->
+    <section class="personal flex px-4 lg:px-[50px] py-5 lg:py-10 gap-8">
+      <div class="left">
+        <div class="card w-[450px] border p-4 rounded-xl">
+          <div class="image">
+            <img class="rounded-xl max-w-full" src="https://dummyimage.com/600x400/000/fff" alt="profile pic" />
+          </div>
+          <div class="header mt-2">
+            <h1 class="text-[32px] font-bold">Fufufafa</h1>
+          </div>
+          <div class="content">
+            <p class="font-semibold">Born to became a superstars to make awesome app to bring new life for mankind</p>
+            <p>
+              Email : fufufafa@gmail.com <br />
+              Address : Jomokerto
+            </p>
+          </div>
+          <table class="w-full border p-[6px] border-collapse">
+            <tr class="font-semibold p-[6px] text-center">
+              <th>Project</th>
+              <th>Year</th>
+              <th>Link</th>
+            </tr>
+            <tr class="font-light p-[6px] text-center bg-white even:bg-pink-200">
+              <td>Aigen Global Teknologi</td>
+              <td>2024</td>
+              <td>
+                <a href="https://aigen-global.com" target="_blank">
+                  <img src="assets/img/link_icon.png" alt="link_icon" width="24px" height="24px" />
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!-- About me -->
+      <div class="right">
+        <h1 class="font-bold text-[32px]" data-aos="fade-right">About Me</h1>
+        <hr />
+        <h2 style="opacity: 0" class="font-semibold text-2xl my-3 !opacity-100 transition-all duration-300">
+          Junior Web Developer
+        </h2>
+        <hr />
+        <p class="my-5 text-justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aliquam officia corporis est maxime,
+          laudantium minus, quisquam tempore modi sit praesentium eum soluta suscipit aut? Architecto praesentium minus
+          possimus minima molestias sunt veritatis magni tempora, incidunt corporis nemo esse quos exercitationem maxime
+          totam ipsa. Molestiae inventore harum quod impedit dignissimos?
+        </p>
+        <div class="skill flex flex-wrap gap-4">
+          <div class="frontend border rounded-xl p-4 max-w-[320px]">
+            <div class="flex">
+              <img class="w-[60px]" src="assets/img/html.png" alt="html" />
+              <img class="w-[60px]" src="assets/img/css.png" alt="css" />
+              <img class="w-[60px]" src="assets/img/javascript.png" alt="js" />
+            </div>
+            <h3 class="font-semibold text-xl my-1">Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, aliquam a fugit ratione iste quos?</p>
+          </div>
+          <div class="backend border rounded-xl p-4 max-w-[320px]">
+            <img class="w-[60px]" src="assets/img/nodejs.png" alt="node" />
+            <h3 class="font-semibold text-xl my-1">Backend Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, aliquam a fugit ratione iste quos?</p>
+          </div>
+        </div>
+
+        <!-- find me -->
+        <div class="findme flex flex-col mt-4">
+          <h2 class="text-xl font-semibold">Find Me on :</h2>
+          <div class="social flex items-center gap-5">
+            <a href="mailto:emailSendiri@gmail.com" target="_blank">
+              <img
+                class="h-[50px]"
+                src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"
+                alt="gmail"
+              />
+            </a>
+            <a href="http://wa.me/+6281234567890" target="_blank">
+              <img
+                class="h-[50px]"
+                src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                alt="wa"
+              />
+            </a>
+            <a href="https://instagram.com/usernameSendiri" target="_blank">
+              <img
+                class="h-[50px]"
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                alt="ig"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script>
+    AOS.init();
+  </script>
+  <footer class="flex bg-black p-4 justify-center text-white items-center">Copyright &copy;2024 | namaSendiri</footer>
+</html>
