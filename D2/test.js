@@ -1,12 +1,3 @@
-// object
-let karyawan1 = {
-  id: 1,
-  nama: "Danu",
-  age: 25,
-  jobDesk: [{ title: "frontend", salary: 12000000 }],
-  hobby: ["membaca", "menulis"],
-};
-
 // ARRAY MANIPULATION
 const employee = [
   {
